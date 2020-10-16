@@ -18,5 +18,3 @@ print("Second name in list of names is " + names[1])
 # coordinateY = 2
 coordinate = (5, 2)
 print(coordinate)
-
-
