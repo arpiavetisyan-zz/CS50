@@ -3,31 +3,35 @@
 
 <head>
     <title>Search</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
     <style>
         #searchbutton,
         #lucky {
             border: rgb(245, 245, 245) solid 1px;
+            height: 37px;
+            width: 137px;
             padding: 7px;
             margin: 10px;
-            border-radius: 5px;
+            border-radius: 4px;
             color: rgb(95, 99, 104);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
             background-color: rgb(245, 245, 245);
         }
         
         #searchbutton:hover {
             border: rgba(107, 105, 105, 0.466) solid 1px;
+            color: black;
         }
         
         #lucky:hover {
             border: rgba(107, 105, 105, 0.466) solid 1px;
+            color: black;
         }
         
         #searchcontent {
-            width: 100vw;
-            height: 100vh;
+            width: 95vw;
+            height: 95vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -39,13 +43,13 @@
 
 <body>
     <div>
-        <a href="https://www.google.com/imghp">Images</a>
+        <a href="GoogleAdvancedSearch.html">Images</a>
         <a href="https://www.google.com/advanced_search">Advanced</a>
         <a href="https://mail.google.com/mail">Gmail</a>
     </div>
     <div id="searchcontent">
         <form action="https://google.com/search">
-            <img src="GoogleLogo.png" alt="logo" width="400">
+            <img src="newlogo.png" alt="logo" width="400">
             <br>
             <input id="searchbar" type="text" name="q">
             <br>
